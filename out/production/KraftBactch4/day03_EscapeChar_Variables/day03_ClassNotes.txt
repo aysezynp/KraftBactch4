@@ -1,0 +1,9 @@
+files & thşer extensions:
+text file .txt
+PDF files .pdf
+Picture .jpg, .png, gif
+word document .doc
+excel .xlsx
+power point .ppt
+java files .java (source code)
+java file .class (byte code)
