@@ -33,8 +33,10 @@ public class C02_SumOfNumbers {
      * @return
      */
     public static int sumOf3Numbers(int num1, int  num2,int num3){
-    return num1+num2+num3;
-}
+       //return sumOf2Numbers(num1,num2)+num3;
+       return sumOf2Numbers(sumOf2Numbers(num1,num2),num3);
+       //return num1+num2+num3;
+     }
 
     /**
      * a method that can find the sum of four numbers
