@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="xyz">
-      <change afterPath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T08_Obeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T01_MethodOverloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T02_DugunKartı.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T03_IhsanHoca.java" afterDir="false" />
+    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit b">
+      <change afterPath="$PROJECT_DIR$/src/day21_Class_And_Objects/C01_MethodsSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_Class_And_Objects/C02_Davetiye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_Class_And_Objects/C03_Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_Class_And_Objects/C04_UcunKati_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_Class_And_Objects/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21_Class_And_Objects/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Car2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Daire2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/MethodsIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/day20_CustomMethods_Overloading/C02_SumOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KraftBactch4/day20_CustomMethods_Overloading/C02_SumOfNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T07_ArmstrongSayi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T07_ArmstrongSayi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/C02_SumOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/C02_SumOfNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T01_MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T01_UcunKatiSorusu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +80,13 @@
       <recent name="day19_CustomMethods_Return" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T02_DugunKartı">
-    <configuration name="C02_SumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20_CustomMethods_Overloading.C02_SumOfNumbers" />
+  <component name="RunManager" selected="Application.MethodsIntro">
+    <configuration name="C01_MethodsSummary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21_Class_And_Objects.C01_MethodsSummary" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day20_CustomMethods_Overloading.*" />
+          <option name="PATTERN" value="day21_Class_And_Objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_MethodOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20_CustomMethods_Overloading.C03_MethodOverloading" />
+    <configuration name="C04_UcunKati_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21_Class_And_Objects.C04_UcunKati_2" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day20_CustomMethods_Overloading.*" />
+          <option name="PATTERN" value="day21_Class_And_Objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T01_MethodOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20_CustomMethods_Overloading.T01_MethodOverloading" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day22_ClassAndObject_Memory.Main" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day20_CustomMethods_Overloading.*" />
+          <option name="PATTERN" value="day22_ClassAndObject_Memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T02_DugunKartı" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20_CustomMethods_Overloading.T02_DugunKartı" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day22_ClassAndObject_Memory.Main2" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day20_CustomMethods_Overloading.*" />
+          <option name="PATTERN" value="day22_ClassAndObject_Memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T03_IhsanHoca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day20_CustomMethods_Overloading.T03_IhsanHoca" />
+    <configuration name="MethodsIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methods.MethodsIntro" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day20_CustomMethods_Overloading.*" />
+          <option name="PATTERN" value="methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T02_DugunKartı" />
-        <item itemvalue="Application.T03_IhsanHoca" />
-        <item itemvalue="Application.T01_MethodOverloading" />
-        <item itemvalue="Application.C03_MethodOverloading" />
-        <item itemvalue="Application.C02_SumOfNumbers" />
+        <item itemvalue="Application.MethodsIntro" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.C01_MethodsSummary" />
+        <item itemvalue="Application.C04_UcunKati_2" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679728003062</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit b">
+      <created>1679938113879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679938113879</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +210,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="abc" />
     <MESSAGE value="xyz" />
-    <option name="LAST_COMMIT_MESSAGE" value="xyz" />
+    <MESSAGE value="commit a" />
+    <MESSAGE value="commit b" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit b" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,13 +614,40 @@
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T01_MethodOverloading.java</url>
+          <url>file://$PROJECT_DIR$/src/day20_CustomMethods_Overloading/T01_UcunKatiSorusu.java</url>
           <line>5</line>
-          <properties class="day20_CustomMethods_Overloading.T01_MethodOverloading" method="main">
+          <properties class="day20_CustomMethods_Overloading.T01_UcunKatiSorusu" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day21_Class_And_Objects/C02_Davetiye.java</url>
+          <line>13</line>
+          <properties class="day21_Class_And_Objects.C02_Davetiye" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day21_Class_And_Objects/C01_MethodsSummary.java</url>
+          <line>3</line>
+          <properties class="day21_Class_And_Objects.C01_MethodsSummary" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day21_Class_And_Objects/C01_MethodsSummary.java</url>
+          <line>14</line>
+          <properties class="day21_Class_And_Objects.C01_MethodsSummary" method="seven7">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day04_VariableCont/EmployeeInfo.java</url>
@@ -647,6 +688,16 @@
           <url>file://$PROJECT_DIR$/src/day18_CustomMethods/C04_PracticeTasks1.java</url>
           <line>4</line>
           <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day21_Class_And_Objects/C01_MethodsSummary.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

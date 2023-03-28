@@ -2,7 +2,7 @@ package day20_CustomMethods_Overloading;
 
 import java.util.Scanner;
 
-public class T01_MethodOverloading {
+public class T01_UcunKatiSorusu {
     public static void main(String[] args) {
     metot();
 
@@ -35,5 +35,5 @@ public class T01_MethodOverloading {
 
 
 
-
 }
+
