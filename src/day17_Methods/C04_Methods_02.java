@@ -66,3 +66,6 @@ ortalama3(4,5,6);
         System.out.println("ortamala= "+ortalama);
 }
 }
+
+
+
