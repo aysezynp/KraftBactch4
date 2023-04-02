@@ -1,4 +1,4 @@
-package day23_StringClass_Cont;
+package day24_StringClass_Cont;
 
 public class C03_StringIsEmpty {
     public static void main(String[] args) {

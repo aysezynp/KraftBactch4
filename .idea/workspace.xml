@@ -4,28 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit cc">
-      <change afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Math2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/C01_StringIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/C02_StringClassMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/T01_KarakterSayisi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/T02_StringOdev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/T03_StringOdev2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/T04_trim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/T05_replace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass/T06_Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C01_StringReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C02_StringEqualIgnoreCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C03_StringIsEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C04_StartsWith_EndsWith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C05_Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C06_LastIndexOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C07_ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C08_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23_StringClass_Cont/C09_UniqueCharacters.java" afterDir="false" />
+    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit ccd">
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C08_Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T01_userName_Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T02_y_HarfiSayisi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T03_a_e_i_Formatı.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T04_TwoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T05_CocukBayramı.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T06_IsminSonHarfi3kere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T07_İsimSoyisim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T08_IsminBasHarfiSoyIsimde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T09_Nickname.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T10_KısaOlanıUzununBaşıSonu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T11_UharfininOnuArkası.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methods/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day17_Methods/C04_Methods_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day17_Methods/C04_Methods_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Math2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day22_ClassAndObject_Memory/Math2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass/T06_Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day23_StringClass/T06_Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C01_StringReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C01_StringReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C02_StringEqualIgnoreCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C02_StringEqualIgnoreCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C03_StringIsEmpty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C03_StringIsEmpty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C04_StartsWith_EndsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C04_StartsWith_EndsWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C05_Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C05_Substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C06_LastIndexOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C06_LastIndexOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C07_ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C07_ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C08_Palindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23_StringClass_Cont/C09_UniqueCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/C09_UniqueCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +92,13 @@
       <recent name="day19_CustomMethods_Return" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C09_UniqueCharacters">
-    <configuration name="C05_Substring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23_StringClass_Cont.C05_Substring" />
+  <component name="RunManager" selected="Application.T04_TwoString">
+    <configuration name="T04_TwoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_StringClass_Cont.T04_TwoString" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23_StringClass_Cont.*" />
+          <option name="PATTERN" value="day24_StringClass_Cont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_LastIndexOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23_StringClass_Cont.C06_LastIndexOf" />
+    <configuration name="T08_IsminBasHarfiSoyIsimde" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_StringClass_Cont.T08_IsminBasHarfiSoyIsimde" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23_StringClass_Cont.*" />
+          <option name="PATTERN" value="day24_StringClass_Cont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C07_ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23_StringClass_Cont.C07_ReverseString" />
+    <configuration name="T09_Nickname" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_StringClass_Cont.T09_Nickname" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23_StringClass_Cont.*" />
+          <option name="PATTERN" value="day24_StringClass_Cont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C08_Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23_StringClass_Cont.C08_Palindrome" />
+    <configuration name="T10_KısaOlanıUzununBaşıSonu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_StringClass_Cont.T10_KısaOlanıUzununBaşıSonu" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23_StringClass_Cont.*" />
+          <option name="PATTERN" value="day24_StringClass_Cont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C09_UniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day23_StringClass_Cont.C09_UniqueCharacters" />
+    <configuration name="T11_UharfininOnuArkası" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day24_StringClass_Cont.T11_UharfininOnuArkası" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day23_StringClass_Cont.*" />
+          <option name="PATTERN" value="day24_StringClass_Cont.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C09_UniqueCharacters" />
-        <item itemvalue="Application.C08_Palindrome" />
-        <item itemvalue="Application.C07_ReverseString" />
-        <item itemvalue="Application.C06_LastIndexOf" />
-        <item itemvalue="Application.C05_Substring" />
+        <item itemvalue="Application.T04_TwoString" />
+        <item itemvalue="Application.T11_UharfininOnuArkası" />
+        <item itemvalue="Application.T10_KısaOlanıUzununBaşıSonu" />
+        <item itemvalue="Application.T09_Nickname" />
+        <item itemvalue="Application.T08_IsminBasHarfiSoyIsimde" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680039879038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit ccd">
+      <created>1680209250990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680209250990</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +239,8 @@
     <MESSAGE value="commit a" />
     <MESSAGE value="commit b" />
     <MESSAGE value="commit cc" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit cc" />
+    <MESSAGE value="commit ccd" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit ccd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -684,27 +696,27 @@
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day23_StringClass_Cont/C01_StringReview.java</url>
+          <url>file://$PROJECT_DIR$/src/day24_StringClass_Cont/C01_StringReview.java</url>
           <line>7</line>
-          <properties class="day23_StringClass_Cont.C01_StringReview" method="main">
+          <properties class="day24_StringClass_Cont.C01_StringReview" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day23_StringClass_Cont/C03_StringIsEmpty.java</url>
+          <url>file://$PROJECT_DIR$/src/day24_StringClass_Cont/C03_StringIsEmpty.java</url>
           <line>3</line>
-          <properties class="day23_StringClass_Cont.C03_StringIsEmpty" method="main">
+          <properties class="day24_StringClass_Cont.C03_StringIsEmpty" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day23_StringClass_Cont/C08_Palindrome.java</url>
-          <line>3</line>
-          <properties class="day23_StringClass_Cont.C08_Palindrome" method="main">
+          <url>file://$PROJECT_DIR$/src/day24_StringClass_Cont/C08_Palindrome.java</url>
+          <line>5</line>
+          <properties class="day24_StringClass_Cont.C08_Palindrome" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -764,11 +776,6 @@
           <url>file://$PROJECT_DIR$/src/methods/MethodsIntro.java</url>
           <line>31</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day23_StringClass/C02_StringClassMethods.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day23_StringClass/T03_StringOdev2.java</url>

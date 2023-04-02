@@ -1,4 +1,4 @@
-package day23_StringClass_Cont;
+package day24_StringClass_Cont;
 
 public class C06_LastIndexOf {
     public static void main(String[] args) {

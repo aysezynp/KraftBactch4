@@ -8,7 +8,7 @@ public class T06_Index {
         // Kullanıcıdan 2 kelime yazmasını isteyin ilk kelimenin baş harfi
         //2. kelimede varsa index ini alın
 
-       /* Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
         System.out.print("Kelime 1: ");
         String kelime1 = scan.nextLine();
         System.out.print("Kelime 2: ");

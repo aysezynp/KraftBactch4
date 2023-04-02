@@ -1,6 +1,5 @@
-package day23_StringClass_Cont;
+package day24_StringClass_Cont;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class C01_StringReview {
