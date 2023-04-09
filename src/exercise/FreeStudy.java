@@ -1,86 +1,78 @@
 package exercise;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class FreeStudy {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-      /*  int aliPara = 90;
-        if (aliPara >=100) {
-            System.out.println("Zamanı var mı?");
-            boolean cevap = scan.nextBoolean();
-            if (cevap == true) {
-                System.out.println("Alinin parası ve zamanı var sinemaya gidebilir");
-            } else {
-                System.out.println("alinin zamanı yok sinemaya gidemez");
+
+   /* public static String isimAlOrtalamaBul(){
+    Scanner scan=new Scanner(System.in);
+    System.out.println("isim giriniz");
+    String name=scan.nextLine();
+    System.out.println("kimya");
+    int kimya= scan.nextInt();
+    System.out.println("matematik");
+    int matematik=scan.nextInt();*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* public static boolean ikiKelimeAynımi(String str1, String str2) {
+        String str1new = str1.toLowerCase();
+        String str2new = str2.toLowerCase();
+
+        if (str1new.length() != str2new.length()) {
+            return false;
+        }
+
+        for (int i = 0; i < str1new.length(); i++) {
+            int index = str2new.indexOf(str1new.charAt(i));
+
+            if (index == -1) {
+                return false;
             }
 
-        }else {
-            System.out.println("Alinin parası yok sinemaya gidemez");
-        }*/
-//Et menü;sebze menü,çocuk menü(1-2_3)
-        //Et menü:pirzola 50 tavuk 30
-        //sebze menü:enginar 30 roka salatası 40
+            str2new = str2new.substring(0, index) + str2new.substring(index + 1);
 
-     /*   System.out.println("Lütfen bir menü seçiniz:et menü (1); sebze menü (2);");
-        int menü=scan.nextInt();
+        }
+        return true;
+    }
 
-        switch(menü){
-            case 1:
-                System.out.println("Pirzola (1); Tavuk (2)");
-                int tercih_1= scan.nextInt();
-                switch (tercih_1){
-                case 1:
-                    System.out.println("Pirzola 50 Tl ");
-                    break;
-                case 2:
-                    System.out.println("Tavuk 30 TL");
-                    break;}
-                break;
+    //fibonacci  değişken int olacak
+    // dönüş tipi long olacak
+    // değşkene karşılık gelen fibonacci number i verecek
 
-            case 2:
-                System.out.println("Enginar (1); roka salatası(2);");
-                int tercih_2= scan.nextInt();
-                switch (tercih_2){
-                case 1:
-                    System.out.println("enginar 30 Tl ");
-                     break;
-                case 2:
-                    System.out.println("Enginar 40 TL");
-                    break;}
-            break;
-            default:
-                System.out.println("Hatalı giriş");*/
+    //   1 2 3 4 5 6 7  8  9  10
+    // 0 1 1 2 3 5 8 13 21 34 55
 
-for(int i=1;i<=9;i++){
-
-    System.out.println("9*"+i+"="+(9*i));
-
-
-
-            }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public static long fibonacci(int n) {
+        if (n <= 1)
+            return n;
+        return fibonacci(n - 1) + fibonacci(n - 2);*/
 
     }
+
+
+
 }
