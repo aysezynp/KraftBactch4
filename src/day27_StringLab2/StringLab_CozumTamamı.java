@@ -1,13 +1,57 @@
 package day27_StringLab2;
 
-import java.util.Scanner;
-
-public class StringLab13_29_benimCozum {
+public class StringLab_CozumTamamı {
     public static void main(String[] args) {
+        System.out.println("SORU 1:");
+        System.out.println("ilkUcHarf(\"Merhaba\") = " + ilkUcHarf("Merhaba"));
+        System.out.println("......................................................");
+        System.out.println("SORU 2:");
+        System.out.println("boslukDoldur(\"Merhaba Dün ya\",\"%\") = " + boslukDoldur("Merhaba Dün ya", "%"));
+        System.out.println("......................................................");
+        System.out.println("SORU 3:");
+        System.out.println("ikinciYariDondur(\"sanayagı\") = " + ikinciYariDondur("sanayagı"));
+        System.out.println("ikinciYariDondur(\"Sanatyagı\") = " + ikinciYariDondur("Sanatyagı"));
+        System.out.println("......................................................");
+        System.out.println("SORU 4:");
+        System.out.println("harfDegistir(\"Merhaba\",\"a\",\"e\") = " + harfDegistir("Merhaba", "a", "e"));
+        System.out.println("......................................................");
+        System.out.println("SORU 5:");
+        System.out.println("harfAdetKere(\"ali\",3) = " + harfAdetKere("ali", 3));
+        System.out.println("......................................................");
+        System.out.println("SORU 6:");
+        System.out.println("karakterSay(\"Ankara\",\"a\") = " + karakterSay("Ankara", "a"));
+        System.out.println("......................................................");
+        System.out.println("SORU 7:");
+        System.out.println("harfSil(\"adana\",\"a\") = " + harfSil("adana", "a"));
+        System.out.println("......................................................");
+        System.out.println("SORU 8:");
+        System.out.println("ilkKelimeBul(\"Kinlenmek\",\"kin\") = " + ilkKelimeBul(" Kinlenmek", "kin"));
+        System.out.println("ilkKelimeBul(\"Ekin ektim\",\"kin\") = " + ilkKelimeBul(" Ekin ektim", "kin"));
+        System.out.println("ilkKelimeBul(\"Keskin ilçesi\",\"kin\") = " + ilkKelimeBul("Keskin ilçesi", "kin"));
+        System.out.println("......................................................");
+        System.out.println("SORU 9:");
+        System.out.println("kisaKelimeBastaUzunKelimeOrtada(\"ayşe\",\"mehmet\",3,2,3) = " + kisaKelimeBastaUzunKelimeOrtada("ayşe", "mehmet", 3, 2, 3));
+        System.out.println("......................................................");
+        System.out.println("SORU 10:");
+        System.out.println("istenenKarakterSayısınaTamamla(\"Merhaba\",5) = " + istenenKarakterSayısınaTamamla("Merhaba", 5));
+        System.out.println("istenenKarakterSayısınaTamamla(\"ali\",6) = " + istenenKarakterSayısınaTamamla("ali", 6));
+        System.out.println("......................................................");
+        System.out.println("SORU 11:");
+        System.out.println("ilkSonKelimeKontrol(\"ankara\",2) = " + ilkSonKelimeKontrol("ankara", 2));
+        System.out.println("ilkSonKelimeKontrol(\"kafka\",2) = " + ilkSonKelimeKontrol("kafka", 2));
+        System.out.println("......................................................");
+        System.out.println("SORU 12");
+        System.out.println("soyad(\" Harun KEnan ÖZSOY  \") = " + soyad(" Harun KEnan ÖZSOY  "));
+        System.out.println("......................................................");
+        System.out.println("SORU 13");
+        System.out.println("yinelenenKarakter(\"ankara\") = " + yinelenenKarakter("ankara"));
+        System.out.println("yinelenenKarakter(\"merhaba\") = " + yinelenenKarakter("merhaba"));
+        System.out.println("......................................................");
         System.out.println("SORU 14:");
         System.out.println("yinelenenKelimeleriBul(\"ankara\") = " + yinelenenKelimeleriBul("ankara"));
         System.out.println("yinelenenKelimeleriBul(\"javva\") = " + yinelenenKelimeleriBul("javva"));
         System.out.println("yinelenenKelimeleriBul(\"derslerime cok calisiyorum\") = " + yinelenenKelimeleriBul("derslerime cok calisiyorum"));
+        System.out.println("......................................................");
         System.out.println("SORU 15:");
         System.out.println("unluUnsuzHarf(\"ankara\") = " + unluUnsuzHarf("ankara"));
         System.out.println("unluUnsuzHarf(\"Zeynep Nilda\") = " + unluUnsuzHarf("Zeynep Nilda"));
@@ -57,10 +101,168 @@ public class StringLab13_29_benimCozum {
 
 
     }
-    //SORU 14. Kullanıcıdan bir kelime alan ve sonucunda yinelenen kelimeleri string
+    //SORU 1: Kullanıcıdan bir input alın ve girilen inputun ilk 3 harfini yazan , 3 kelimeden az
+    //       ise inputu döndüren bir metot yazınız.
+
+    public static String ilkUcHarf(String str){
+        if(str==null) return null;
+        String result="";
+        if(str.length()<3){
+            result=str;
+        }
+        result=str.substring(0,3);
+
+       return result;
+    }
+    //SORU 2: Kullanıcıdan bir dize sözcük alın ve her boşluğa % ibaresi ekleyin.
+
+    public static String boslukDoldur(String str,String target){
+        if(str==null) return null;
+        return str.replace(" ", target);
+    }
+
+    //SORU 3: Kullanıcın girdiği eşit uzunlukta bir kelimenin 2. yarısını döndüren bir program
+    //        yazdırın.
+
+    public static String ikinciYariDondur(String str){
+        if(str==null) return null;
+        String result="";
+        if(str.length()%2==0){
+            result=str.substring(str.length()/2);
+            return result;
+        }else{
+           result= "Girilen kelime eşit uzunlukta değildir";}
+        return result;
+    }
+
+    //SORU 4: Kullanıcıdan bir kelime , değiştirmek istediği harfi/harfleri ve yeni harfi/harfleri
+    //       alan ve buna göre kelimede/dizede sadece ilk bulduğu yeri değiştiren metodu
+    //       yazınız.
+
+    public static String harfDegistir(String str,String ch,String target){
+        if(str==null) return null;
+        return str.replaceFirst(ch, target);
+    }
+
+    //SORU 5: Kullanıcıdan bir kelime alın ve her harfini 3 defa yazdırın.
+
+    public static String harfAdetKere(String str,int adet){
+        if(str==null) return null;
+        String result="";
+        for (int i = 0; i <str.length(); i++) {
+            for (int j = 0; j <adet; j++) {
+                result+=str.charAt(i);
+            }
+        }return result;
+    }
+
+    //SORU 6: Kullanıcıdan bir kelime ve bir karakter alın ve bu kelimenin istenen karakterin
+    //        kaç adet olduğunu döndüren metodu yazınız. (büyük küçük harf göz ardı edilecek)
+
+     public static int  karakterSay(String str,String karakter){
+       int sayac=0;
+         for (int i = 0; i<str.length(); i++) {
+             if(str.substring(i,i+1).equalsIgnoreCase(karakter)){
+                sayac++;
+             }
+         }return sayac;
+     }
+    //SORU 7: Kullanıcıdan bir kelime ve bir harf alın kelimenizin içinde bu harfin hepsi
+    //         kaldırılmış şekilde string döndüren programı yazınız.
+
+    public static String harfSil(String str,String harf) {
+        if(str==null) return null;
+        return str.replace(harf, "");
+    }
+
+    //SORU 8: Kullanıcıdan bir kelime alın ve kin kelimesi başından veya ilk karakterden sonra
+    //        gelip gelmediğini kontrol edin geliyorsa true gelmiyorsa false döndürün;
+
+    public static boolean ilkKelimeBul(String str,String target){
+        if(target==null)return false;
+        str=str.toLowerCase().trim();
+        target=target.toLowerCase();
+        return str.startsWith(target)||str.substring(1,target.length()+1).equals(target);
+    }
+    //SORU 9: Kullanıcıdan 2 kelime alın kısa kelime yi başta 2 defa uzun kelimeyi ortada 30
+    //        defa kısa kelimeyi tekrar sonda 2 defa yazdıran metodu yazınız.
+
+    public static String kisaKelimeBastaUzunKelimeOrtada(String str1, String str2, int ilk, int orta, int son) {
+        String result = "";
+        if (str1.length() > str2.length()) {
+            for (int i = 0; i < ilk; i++) {
+                result += str2;
+            }
+            for (int i = 0; i < orta; i++) {
+                result += str1;
+            }
+            for (int i = 0; i < son; i++) {
+                result += str2;
+            }
+        } else {
+            for (int i = 0; i < ilk; i++) {
+                result += str1;
+            }
+            for (int i = 0; i < orta; i++) {
+                result += str2;
+            }
+            for (int i = 0; i < son; i++) {
+                result += str1;
+            }
+        }
+        return result;
+    }
+    //SORU 10: Kullanıcıdan bir kelime veya söz alın ve ilk 5 karakterini yazdırın. 5 karakterin
+    //         altında bir kelime girdiği taktirde 5 karaktere nokta ile tamamlayın.
+
+    public static String istenenKarakterSayısınaTamamla(String str, int karaktersayisi) {
+        if(str==null) return null;
+        String result = str;
+        if (str.length()<=karaktersayisi) {
+            for (int i = str.length(); i < karaktersayisi; i++) {
+                result += ".";
+            }
+            return result;
+        }
+        return str.substring(0, karaktersayisi);
+    }
+    //SORU 11: Kullanıcıdan bir kelime alın ve bu kelimenin ilk 2 harfi sonunda yer alıyorsa true
+    //         almıyorsa false yazdırın.
+
+    public static boolean ilkSonKelimeKontrol(String str,int harfSayi){
+        if (str == null || str.length()<harfSayi || harfSayi< 1) return false;
+        return str.substring(0,harfSayi).equalsIgnoreCase(str.substring(str.length()-2));
+    }
+
+    //SORU 12: Kullanıcının konsoldan ad ve soyad bilgilerini konsoldan alın
+    //         Ekrana "Soy isminiz ..(soyad).. dır." Yazan metodu yazınız
+
+    public static String soyad(String str){
+        if(str==null) return null;
+        str=str.trim();
+        return str.substring(str.lastIndexOf(" ")+1);
+    }
+
+    //SORU 13:Kullanıcıdan bir dize sözcük alın ve yinelenen her karakteri kelimenizden
+    //        çıkartarak sonuç döndüren metodu yazınız. (Büyük küçük duyarlı
+
+    public static String yinelenenKarakter(String str){
+        if(str==null) return null;
+        String result="";
+        String ch;
+        for (int i = 0; i <str.length() ; i++){
+            ch=str.charAt(i)+"";
+            if(!result.contains(ch)){
+                result+=ch;
+            }
+        }return result;
+    }
+
+   //SORU 14: Kullanıcıdan bir kelime alan ve sonucunda yinelenen kelimeleri string
     //        olarak return eden metot yazınız.
     //" Java " output:a
-    //" Javva " output:av
+    //  0123
+    // " Javva " output:av
     //" Derslerime cok calisiyorum" output:erslimc
 
     public static String yinelenenKelimeleriBul(String str) {
@@ -75,7 +277,7 @@ public class StringLab13_29_benimCozum {
         return result;
     }
 
-    // SORU 15. Kullanıcıdan bir kelime alın ve bu kelimenin içerindeki ünlü ve ünsüz harfleri
+    // SORU 15: Kullanıcıdan bir kelime alın ve bu kelimenin içerindeki ünlü ve ünsüz harfleri
     //          ayrı ayrı ekrana yazan programı yazınız.
 
     public static String unluUnsuzHarf(String str) {
@@ -202,8 +404,8 @@ public class StringLab13_29_benimCozum {
         return sayac;
     }
 
-    //SORU 26. Bursa ile Ankara kelimeli cümlenin içerisinde aynı sayıda dönüyorsa true farklı
-    //        sayılarda dönüyorsa false yazdıran meto
+    //SORU 26: Bursa ile Ankara kelimeli cümlenin içerisinde aynı sayıda dönüyorsa true farklı
+    //         sayılarda dönüyorsa false yazdıran meto
 
     public static boolean ikiKelimeAyniSayida(String cumle, String target1, String target2) {
         int sayac1=0;
@@ -222,7 +424,7 @@ public class StringLab13_29_benimCozum {
            if(sayac1==sayac2) return true;
            else return false;}
 
-        //SORU 27. Kullanıcıdan bir kelime alın ve sonu acak ile bitiyorsa true bitmiyorsa false
+        //SORU 27: Kullanıcıdan bir kelime alın ve sonu acak ile bitiyorsa true bitmiyorsa false
         //         döndüren metodu yazdırın
 
         public static boolean sonuBitiyorsa (String str, String target){
@@ -231,13 +433,13 @@ public class StringLab13_29_benimCozum {
             return str.endsWith(target);
         }
 
-        //SORU 28.Kullanıcıdan bir kelime alın ve bu kelimenin içerindeki harf sayılarını başına
-        //       yazarak ekrana döndürün.(büyük küçük harfler göz ardı edil
+    //SORU 28: Kullanıcıdan bir kelime alın ve bu kelimenin içerindeki harf sayılarını başına
+    //         yazarak ekrana döndürün.(büyük küçük harfler göz ardı edilecek)
 
-        public static String kelimeIcindeHarfSayisi (String str){
-            str = str.toLowerCase().replace(" ", "");
-            String result = "";
-            int count;
+    public static String kelimeIcindeHarfSayisi (String str){
+        str = str.toLowerCase().replace(" ", "");
+        String result = "";
+        int count;
             for (int i = 0; i < str.length(); i++) {
                 String ch = str.charAt(i) + "";
                 count = str.length() - (str.replace(ch, "").length());
@@ -248,7 +450,8 @@ public class StringLab13_29_benimCozum {
             return result;
         }
     //SORU 29: Kullanıcıdan bir dize sözcük alın ve en çok harfi döndüren metodu yazınız.
-     public static char enCokHarf(String str) {
+
+    public static char enCokHarf(String str) {
          char enCokHarf = ' ';//Merhaba
          int harfSayi = 0;
 

@@ -1,78 +1,36 @@
 package exercise;
 
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class FreeStudy {
     public static void main(String[] args) {
-
-   /* public static String isimAlOrtalamaBul(){
-    Scanner scan=new Scanner(System.in);
-    System.out.println("isim giriniz");
-    String name=scan.nextLine();
-    System.out.println("kimya");
-    int kimya= scan.nextInt();
-    System.out.println("matematik");
-    int matematik=scan.nextInt();*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   /* public static boolean ikiKelimeAynımi(String str1, String str2) {
-        String str1new = str1.toLowerCase();
-        String str2new = str2.toLowerCase();
-
-        if (str1new.length() != str2new.length()) {
-            return false;
-        }
-
-        for (int i = 0; i < str1new.length(); i++) {
-            int index = str2new.indexOf(str1new.charAt(i));
-
-            if (index == -1) {
-                return false;
-            }
-
-            str2new = str2new.substring(0, index) + str2new.substring(index + 1);
-
-        }
-        return true;
+        System.out.println(reverse("I love Java"));
     }
+    /* write a program that can reverse the second word of the sentence
+        Ex:
+        sentence="I love Java";
+                  0    1   2
+        output;
+        I evol java
+        */
+    public static String reverse(String str) {
+        String[] strArr = str.split(" ");
+        String result = "";
 
-    //fibonacci  değişken int olacak
-    // dönüş tipi long olacak
-    // değşkene karşılık gelen fibonacci number i verecek
-
-    //   1 2 3 4 5 6 7  8  9  10
-    // 0 1 1 2 3 5 8 13 21 34 55
-
-    public static long fibonacci(int n) {
-        if (n <= 1)
-            return n;
-        return fibonacci(n - 1) + fibonacci(n - 2);*/
-
+        String reversed = "";
+        for (int i = strArr[1].length() - 1; 0<=i; i--) {
+            reversed += strArr[1].charAt(i);
+        }
+        strArr[1]=reversed;
+        for (String yeni : strArr) {
+            result += yeni + " ";
+        }
+        return result;
     }
-
 
 
 }
+
+
+

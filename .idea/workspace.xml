@@ -4,30 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit aysex">
-      <change afterPath="$PROJECT_DIR$/src/day25_Summary/T01_trim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26_StringSoruÇözümü/StringLab_1_7HocaCozum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26_StringSoruÇözümü/StringLab_8_13benimCozum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day27_StringLab2/StringLab13_29_benimCozum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_8_13HocaCozum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_soru21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day29_FullReview/C01_CustomMethodsVoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day29_FullReview/C02_RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day29_FullReview/C03_UniqueCharacaters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day29_FullReview/C04_FrequencyOfChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/C02_DigitsLetterSpecialChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/C02_SwitchSeasons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/C03_AsalSayılar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/C04_LocalVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/C05_ClassLevelVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/C07_FrequencyofWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/Doktor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day30_Review/Hastane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sinav/Sinav.java" afterDir="false" />
+    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit aysexyzt">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day30_Review/HarunHocaEkstraOdev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day31_Arrays_1/C01_Array_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day31_Arrays_1/C01_Array_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32_Array_2/C01_ForEachLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32_Array_2/C02_Array_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32_Array_2/C03_ArraysToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32_Array_2/C04_Arrays_Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day32_Array_2/day31_SlaytSorular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_Arrays_3/C01_Alphabet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_Arrays_3/C02_Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_Arrays_3/C03_ArrayMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_Arrays_3/C04_Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_Arrays_4/ArraysLab_CozumTamamı.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_Arrays_4/C01_Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_Arrays_4/C02_ReverseSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_Arrays_4/C03_ReverseSecondWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_Arrays_4/C05_MultiDimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day34_Arrays_4/C06_2dArrayTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day35_ArraysSummary/ArraysSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36_WrapperClass/C01_Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36_WrapperClass/C02_WrapperClass_Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day36_WrapperClass/C03_WrapperClass_Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mentoring/ArraysMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mentoring/MethodsInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/day2_Review/_01_Task.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/FreeStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/FreeStudy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24_StringClass_Cont/T03_a_e_i_Formatı.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24_StringClass_Cont/T03_a_e_i_Formatı.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26_StringSoruÇözümü/StringLab_8_13benimCozum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26_StringSoruÇözümü/StringLab_8_13benimCozum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27_StringLab2/StringLab13_29_benimCozum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_CozumTamamı.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_soru21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_soru21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_Review/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_Review/_01_Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day2_Review/_03_Animal.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercise/FreeStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/FreeStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/Demo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,28 +88,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="day19_CustomMethods_Return" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringLab13_29_benimCozum">
-    <configuration name="C02_DigitsLetterSpecialChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day30_Review.C02_DigitsLetterSpecialChars" />
+  <component name="RunManager" selected="Application.C03_WrapperClass_Characters">
+    <configuration name="ArraysLab_CozumTamamı" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day34_Arrays_4.ArraysLab_CozumTamamı" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day30_Review.*" />
+          <option name="PATTERN" value="day34_Arrays_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_SwitchSeasons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day30_Review.C02_SwitchSeasons" />
+    <configuration name="ArraysMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mentoring.ArraysMethod" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day30_Review.*" />
+          <option name="PATTERN" value="mentoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hastane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day30_Review.Hastane" />
+    <configuration name="C01_Wrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36_WrapperClass.C01_Wrapper" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day30_Review.*" />
+          <option name="PATTERN" value="day36_WrapperClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLab13_29_benimCozum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day27_StringLab2.StringLab13_29_benimCozum" />
+    <configuration name="C02_WrapperClass_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36_WrapperClass.C02_WrapperClass_Methods" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day27_StringLab2.*" />
+          <option name="PATTERN" value="day36_WrapperClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringLab_soru21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day27_StringLab2.StringLab_soru21" />
+    <configuration name="C03_WrapperClass_Characters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day36_WrapperClass.C03_WrapperClass_Characters" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day27_StringLab2.*" />
+          <option name="PATTERN" value="day36_WrapperClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringLab13_29_benimCozum" />
-        <item itemvalue="Application.StringLab_soru21" />
-        <item itemvalue="Application.C02_DigitsLetterSpecialChars" />
-        <item itemvalue="Application.Hastane" />
-        <item itemvalue="Application.C02_SwitchSeasons" />
+        <item itemvalue="Application.C03_WrapperClass_Characters" />
+        <item itemvalue="Application.C02_WrapperClass_Methods" />
+        <item itemvalue="Application.C01_Wrapper" />
+        <item itemvalue="Application.ArraysLab_CozumTamamı" />
+        <item itemvalue="Application.ArraysMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680430827210</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit aysexyzt">
+      <created>1681027378208</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681027378208</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +268,9 @@
     <MESSAGE value="commit ccd" />
     <MESSAGE value="commit ayse" />
     <MESSAGE value="commit aysex" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit aysex" />
+    <MESSAGE value="commit aysexy" />
+    <MESSAGE value="commit aysexyzt" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit aysexyzt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -730,31 +753,58 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day27_StringLab2/StringLab_soru21.java</url>
+          <url>file://$PROJECT_DIR$/src/day31_Arrays_1/C01_Array_1.java</url>
+          <line>3</line>
+          <properties class="day31_Arrays_1.C01_Array_1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day32_Array_2/C04_Arrays_Methods.java</url>
+          <line>6</line>
+          <properties class="day32_Array_2.C04_Arrays_Methods">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercise/FreeStudy.java</url>
           <line>16</line>
-          <properties class="day27_StringLab2.StringLab_soru21" method="concatKelime">
+          <properties class="exercise.FreeStudy" method="reverse">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="136" />
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day27_StringLab2/StringLab_soru21.java</url>
+          <url>file://$PROJECT_DIR$/src/day32_Array_2/C02_Array_example.java</url>
           <line>5</line>
-          <properties class="day27_StringLab2.StringLab_soru21" method="main">
+          <properties class="day32_Array_2.C02_Array_example" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="137" />
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day27_StringLab2/StringLab13_29_benimCozum.java</url>
-          <line>250</line>
-          <properties class="day27_StringLab2.StringLab13_29_benimCozum" method="enCokHarf">
+          <url>file://$PROJECT_DIR$/src/day33_Arrays_3/C03_ArrayMethods.java</url>
+          <line>6</line>
+          <properties class="day33_Arrays_3.C03_ArrayMethods" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="145" />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day32_Array_2/C01_ForEachLoop.java</url>
+          <line>3</line>
+          <properties class="day32_Array_2.C01_ForEachLoop" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day04_VariableCont/EmployeeInfo.java</url>
@@ -827,9 +877,9 @@
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/day27_StringLab2/StringLab13_29_benimCozum.java</url>
-          <line>249</line>
-          <option name="timeStamp" value="142" />
+          <url>file://$PROJECT_DIR$/src/day32_Array_2/C04_Arrays_Methods.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="143" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

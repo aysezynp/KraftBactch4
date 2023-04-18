@@ -14,6 +14,20 @@ public class StringLab_8_13benimCozum {
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //SORU 8: Kullanıcıdan bir kelime alın ve kin kelimesi başından veya ilk karakterden sonra
     //        gelip gelmediğini kontrol edin geliyorsa true gelmiyorsa false döndürün;
     //    Kinlenmek true

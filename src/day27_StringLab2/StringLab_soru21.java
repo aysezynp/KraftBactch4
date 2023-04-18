@@ -1,10 +1,12 @@
 package day27_StringLab2;
 
+
+
 import java.util.Scanner;
 
 public class StringLab_soru21 {
     public static void main(String[] args) {
-     concatKelime();
+        System.out.println("kelimeKontrol() = " + kelimeKontrol());
 
     }
 
@@ -14,7 +16,7 @@ public class StringLab_soru21 {
     //         giriş yaparsa 2 kelimeyi arada boşluk olacak şekilde sadece concat() metodu ile
     //         birleştirerek yazdırın.
 
-    public static void concatKelime() {
+    /*public static void concatKelime() {
         int i = 0;
         System.out.println("Kelimeler 1 ila 4 harf olacak şekilde girilmelidir, 3 kere hatalı giriş yaparsanız program sonlanır");
         while(i<3) {
@@ -38,5 +40,81 @@ public class StringLab_soru21 {
 
         }
 
+    }*/
+
+    public static String kelimeKontrol(){
+        Scanner scan=new Scanner(System.in);
+        String kelime1="";
+        String kelime2="";
+        int i=0;
+        while(i<3) {
+            System.out.print("kelime 1:");
+            kelime1 = scan.nextLine();
+            if (kelime1.length() > 0 && kelime1.length() < 5) {
+                break;
+            }
+            System.out.println("Hatalı giriş, Lütfen tekrar deneyiniz");
+            i++;
+            if (i == 3) return null;
+        }
+        i=0;
+        while(i<3) {
+            System.out.print("kelime 2:");
+            kelime2 = scan.nextLine();
+            if (kelime2.length() > 0 && kelime2.length() < 5) {
+                break;
+            }
+            System.out.println("Hatalı giriş, Lütfen tekrar deneyiniz");
+            i++;
+            if (i == 3) return null;
+        }
+
+    return kelime1.concat(" ").concat(kelime2);
     }
-}
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
