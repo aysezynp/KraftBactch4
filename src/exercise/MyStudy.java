@@ -1,8 +1,5 @@
 package exercise;
 
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
 public class MyStudy {
 
     public static void main(String[] args) {

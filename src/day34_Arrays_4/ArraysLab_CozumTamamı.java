@@ -2,6 +2,7 @@ package day34_Arrays_4;
 
 import day33_Arrays_3.C02_Tasks;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -33,7 +34,6 @@ public class ArraysLab_CozumTamamı {
 
         System.out.println("SORU 6:");
         System.out.println(Arrays.toString(numbersBetweenTwoInt(8, 15)));
-        //[1,2,-8,-9] [-1,0,-7,11]
         System.out.println("..................................................");
 
         System.out.println("SORU 7:");
@@ -43,11 +43,11 @@ public class ArraysLab_CozumTamamı {
         System.out.println("..................................................");
 
         System.out.println("SORU 8:");
+        System.out.println(secondArrayContainsFirst(new int[]{5, 4, 3, 2, 1}, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9}));
         System.out.println("..................................................");
 
         System.out.println("SORU 9:");
-        int[] arr3 = {1, 2, 3, 4};
-        System.out.println(Arrays.toString(reverseArray(arr3)));
+        System.out.println(Arrays.toString(reverseArray(new int[]{1,2,3,4})));
         System.out.println("..................................................");
 
         System.out.println("SORU 10:");
@@ -67,12 +67,9 @@ public class ArraysLab_CozumTamamı {
         System.out.println("..................................................");
 
         System.out.println("SORU 14:");
-        int[] arr4 = {2, 3, 3, 4, 5, 6, 5, 6, 3};
-        int[] arr5 = {2, 4, 5, 8, 8};
-        int[] arr6 = {1, 2, 3};
-        System.out.println(threeOrderedNumbers(arr4));
-        System.out.println(threeOrderedNumbers(arr5));
-        System.out.println("threeOrderedNumbers(arr6) = " + threeOrderedNumbers(arr6));
+        System.out.println("(threeOrderedNumbers(new int[]{2,3,3,4,5,6,5,6,3})) = " + (threeOrderedNumbers(new int[]{2, 3, 3, 4, 5, 6, 5, 6, 3})));
+        System.out.println("(threeOrderedNumbers(new int[]{2,4,5,8,8})) = " + (threeOrderedNumbers(new int[]{2, 4, 5, 8, 8})));
+        System.out.println("threeOrderedNumbers(arr6) = " + threeOrderedNumbers(new int[]{1,2,3}));
         System.out.println("..................................................");
 
         System.out.println("SORU 15:");
@@ -82,6 +79,9 @@ public class ArraysLab_CozumTamamı {
         System.out.println("..................................................");
 
         System.out.println("SORU 16:");
+        System.out.println("(theMostNumber(new int[]{2,3,3,3,6,6,5})) = " + (theMostNumber(new int[]{2,3,3,3,6,6,5})));
+        System.out.println("(theMostNumber(new int[]{2,4,5,8,8})) = " + (theMostNumber(new int[]{2,4,5,8,8})));
+        System.out.println("(theMostNumber(new int[]{2,4,5,8})) = " + (theMostNumber(new int[]{2,4,5,8})));
 
         System.out.println("..................................................");
 
@@ -120,6 +120,23 @@ public class ArraysLab_CozumTamamı {
         System.out.println("SORU 23:");
         System.out.println("Arrays.toString(sortNumbers(new int[]{21,7,29,12})) = " + Arrays.toString(sortNumbers(new int[]{21, 7, 29, 12})));
         System.out.println("Arrays.toString(sortNumbers(new int[]{5,10,2,4})) = " + Arrays.toString(sortNumbers(new int[]{5, 10, 2, 4})));
+        System.out.println("..................................................");
+
+        System.out.println("SORU 24:");
+        System.out.println(sumOfNotDuplicateNumbers(new int[]{1, 1, 2, 3}));
+        System.out.println(sumOfNotDuplicateNumbers(new int[]{2, 5, 5, 5, 9}));
+        System.out.println(sumOfNotDuplicateNumbers(new int[]{5, 5, 5, 5, 9}));
+        System.out.println(sumOfNotDuplicateNumbers(new int[]{5,1,5,1,5}));
+        System.out.println("..................................................");
+
+        System.out.println("SORU 25:");
+        System.out.println("(sumOfNumbersExceptFiveToNine(new int[]{1,5,9,3})) = " + (sumOfNumbersExceptFiveToNine(new int[]{1, 5, 9, 3})));
+        System.out.println("(sumOfNumbersExceptFiveToNine(new int[]{5,3,9,11,9})) = " + (sumOfNumbersExceptFiveToNine(new int[]{5,3,9,11,9})));
+        System.out.println("(sumOfNumbersExceptFiveToNine(new int[]{2,5,28,36,9})) = " + (sumOfNumbersExceptFiveToNine(new int[]{2, 5, 28, 36, 9})));
+        System.out.println("..................................................");
+
+        System.out.println("SORU 26:");
+        System.out.println("Arrays.toString(putOneToRightSide(new int[]{5,1,9,6,1,4,7,11,25,36})) = " + Arrays.toString(putOneToRightSide(new int[]{5, 1, 9, 6, 1, 4, 7, 11, 25, 36})));
     }
 
 //SORU 1:Array’in içerisindeki tüm sayıların toplamını veren metodu yazınız.
@@ -132,7 +149,8 @@ public class ArraysLab_CozumTamamı {
         return sum;
     }
 
-    //SORU 2:Array’in içerisindeki tüm çift sayıların toplamını veren metodu yazınız.
+//SORU 2:Array’in içerisindeki tüm çift sayıların toplamını veren metodu yazınız.
+
     public static int sumOfEvenNumbers(int[] arr) {
         int sum = 0;
         for (int x : arr) {
@@ -143,7 +161,8 @@ public class ArraysLab_CozumTamamı {
         return sum;
     }
 
-    //SORU 3:Array’in içerisindeki tüm 3 sayılarının toplamını veren metodu yazınız.
+//SORU 3:Array’in içerisindeki tüm 3 sayılarının toplamını veren metodu yazınız.
+
     public static int sumOfnNumber(int[] arr, int n) {
         int sum = 0;
         for (int x : arr) {
@@ -190,7 +209,7 @@ public class ArraysLab_CozumTamamı {
         return arr;
     }
 
-//SORU 6.2 adet integer sayı alan ve arasındaki sayıları indekslere atayan metodu yazınız.
+//SORU 6: 2 adet integer sayı alan ve arasındaki sayıları indekslere atayan metodu yazınız.
 
     public static int[] numbersBetweenTwoInt(int x, int y) {
         int min = Math.min(x, y);
@@ -202,6 +221,7 @@ public class ArraysLab_CozumTamamı {
         }
         return arr;
     }
+
 //SORU 7: 2 adet array kabul eden ve sonucunda bu 2 array’in verileri ile birlikte tek bir array
 //        oluşturan metodu yazınız.
 //        [1,2,-8,-9] [-1,0,-7,11] -------→ [1,2,-8,-9,-1,0,-7,11]
@@ -218,13 +238,23 @@ public class ArraysLab_CozumTamamı {
         }
         return newArr;
     }
+
 //SORU 8: 2 array kabul eden, ilk array in içerindeki tüm sayılar ikinci arrayin içinde yer alıyorsa true
 //        yer almıyorsa false yazdıran metodu yazınız.
-//[5,4,3,2,1] , [1,2,3,4,5,7,9] true
-//[5,4,3,2,1,7,5] , [1,2,3,4,5] false
+//        [5,4,3,2,1] , [1,2,3,4,5,7,9] true
+//        [5,4,3,2,1,7,5] , [1,2,3,4,5] false
 
-    //public static boolean  secondArrayContainsFirst(int[] x,int[] y){
-
+    public static boolean  secondArrayContainsFirst(int[] x,int[] y){
+          boolean  bh=false;
+      firstloop:  for (int i = 0; i < x.length; i++) {
+            for (int j = 0; j< y.length; j++) {
+                if(x[i]==y[j]){
+                   continue firstloop;
+                }
+            }
+            return false;
+        }return true;
+    }
 
 //SORU 9: Array’in içerisindeki sayıları ters çevirerek yeni bir array oluşturan metodu yazınız.
 
@@ -236,6 +266,7 @@ public class ArraysLab_CozumTamamı {
         }
         return reversed;
     }
+
 //SORU 10: Boyutu 10 olan bir array oluşturun ve içerisine Random sınıfını kullanarak 0-100 arasında
 //         rastgele sayılar atayın ve ekrana bu verileri yazdıran metodu yazınız.
 
@@ -249,7 +280,7 @@ public class ArraysLab_CozumTamamı {
     }
 
 //SORU 11: Boyutu 500 olan bir array oluşturun ve içerisine Random sınıfını kullanarak 50-80
-//         arasında rasgele sayılar atayın.
+//         arasında rastgele sayılar atayın.
 
     public static int[] createArrayWithNumbersBetweenFifty_Eighty() {
         Random random = new Random();
@@ -259,6 +290,7 @@ public class ArraysLab_CozumTamamı {
         }
         return arr;
     }
+
 //SORU 12: Boyutu 500 olan bir array oluşturun ve içerisine Random sınıfını kullanarak 120-140
 //         arasında rasgele sayılar atayın. Oluşturduğunuz Array in içerinde kaç adet 125 sayısı vardır?
 
@@ -276,6 +308,7 @@ public class ArraysLab_CozumTamamı {
         }
         return count;
     }
+
 //SORU 13:: Boyutu 500 olan bir array oluşturun ve içerisine Random sınıfını kullanarak 120-140
 //          arasında rasgele sayılar atayın. Oluşturduğunuz Array içerisindeki en büyük 2. sayıyı bulun
 
@@ -311,12 +344,9 @@ public class ArraysLab_CozumTamamı {
         }
         return false;
     }
+
 //SORU 15: Array’in içerindeki eşi olmayan yalnız sayıları bulan ve bunları ekrana yazdıran metodu
 //         yazınız. (sağında veya solunda aynı sayı yoksa yalnızdır.)
-    //      [2,3,3,4,5,6,5,6,3] → 2,4,5,6,3
-    //      [2,2,5,8,8] →5
-    //     [2,2,3] → 3
-    //   [1,2] → 1,2
 
     public static String aloneNumbers(int[] arr) {
         String result = "";
@@ -335,36 +365,35 @@ public class ArraysLab_CozumTamamı {
     }
 
 //SORU 16: Array’in içerisinde en çok bulunan sayıyı veren metodu yazınız. (eşitlik durumda herhangi
-//          birini alabilir,1 den fazla bulunmuyorsa -1 döndürecek)
-    //  [2,3,3,3,6,6,5,6,3] → 3
-    // [2,4,5,8,8] → 8
+//         birini alabilir,1 den fazla bulunmuyorsa -1 döndürecek
+//         [2,3,3,3,6,6,5,6,3] → 3
+//         [2,4,5,8,8] → 8
 
-       /* public static int theMostNumber(int[]arr) {
-            int mostNumber = 0;
-            int sayi = 0;//2,3,3,3,6,6,5
-            int count = 0;
-            for (int i = 0; i < arr.length; i++) {
-                int num = arr[i];
-                if (num >= 1 && num == arr[i - 1])
-                    continue;
-                else {
-                    for (int j = i; j < arr.length; j++) {
-                        if (arr[j] == num) {
-                            count++;
-                        }
-                    }
-                    if (count > sayi) {
-                        sayi = count;
-                        mostNumber = num;
-                    }
-                }
-                if (count == 1)
-                    return -1;
+       public static int theMostNumber (int[] arr) {
+           int mostNumber = 0;
+           int sayi = 0; //2,3,3,3,6,6,5
 
-                else
-                    return mostNumber;
-            }
-        }*/
+               for (int i = 0; i<arr.length; i++) {
+               int count= 0;
+               int num = arr[i];
+               if (num == 1) {
+                   continue;
+               } else {
+                   for (int j = i; j < arr.length; j++) {
+                       if (arr[j] == num) {
+                           count++;
+                       }
+                   }
+               }
+               if (count > sayi) {
+                   sayi = count;
+                   mostNumber = num;
+               }
+               }
+               if(sayi==1)
+               return -1;
+               return mostNumber;
+    }
 
 //SORU 17::Array’in içerindeki dublicate sayı varsa true yoksa false döndüren metodu yazınız.
 //[1,2,8,1] true
@@ -379,6 +408,7 @@ public class ArraysLab_CozumTamamı {
 
         return false;
     }
+
 //SORU 18: «Bir fil ormanda boylu boyunca uzanmış, yüksek sesle horlayarak uyuyordu. Filin yemek
 //          dolu karnı horlarken bir aşağı bir yukarı gidiyordu. Filin horlama sesini duyan fare yuvasından çıkıp
 //          sesin olduğu tarafa gitti, filin horlarken sallanan karnı farenin hoşuna gitti. Usulca çıkıp filin karnının
@@ -396,6 +426,7 @@ public class ArraysLab_CozumTamamı {
         }
         return count;
     }
+
 //SORU 19: Verilen bir cümlenin içerinde dublicate kelime varsa true yoksa false döndüren metodu
 //         yazınız.
 
@@ -426,9 +457,9 @@ public class ArraysLab_CozumTamamı {
         Arrays.fill(arr, 1, arr.length, 0);
         return arr;
     }
+
 //SORU 21: Array’in içerisindeki sayılardan 5 den sonra 8 geliyorsa 8 yerine 1 atayan metodu yazınız
-//[6,5,8,6,8,5,8] →[6,5,1,6,8,5,1]
-//[5,7,8,5,9] → [5,7,8,5,9
+//         [6,5,8,6,8,5,8] →[6,5,1,6,8,5,1]
 
     public static int[] putOneIfFiveAfterEight(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
@@ -439,7 +470,8 @@ public class ArraysLab_CozumTamamı {
         return arr;
     }
 
-    //SORU 22: Array’in içerisindeki asal sayıları bularak ekrana yazdıran metodu yazınız.
+//SORU 22: Array’in içerisindeki asal sayıları bularak ekrana yazdıran metodu yazınız.
+
     public static String primeNumbers(int[] arr) {
         String prime = "";
 
@@ -460,8 +492,9 @@ public class ArraysLab_CozumTamamı {
         return prime;
     }
 
-    //SORU 23. Array’in içerisindeki sayıları artan düzeyde sıralayınız. (Arrays.sort kullanılmayacak)
+//SORU 23. Array’in içerisindeki sayıları artan düzeyde sıralayınız. (Arrays.sort kullanılmayacak)
     //[21,7,29,12] ----→ [7,12,21,29]
+
     public static int[] sortNumbers(int[] arr) {
         int temp;
         for (int i = 0; i < arr.length; i++) {
@@ -479,16 +512,70 @@ public class ArraysLab_CozumTamamı {
 //SORU 24: Array’in içerisindeki ard arda aynı olan sayıları hariç tutarak dublicate olmayan sayıların
 //         toplamını veren metodu yazınız.
 
-//[1,1,2,3] → 5
-//[2,5,5,5,9] →11
-//[5,5,5,5,9] →9
-//[5,5,5,5,5] →0
-//[5,1,5,1,5] →17
+      //[1,1,2,3] → 5
+      //[2,5,5,5,9] →11
+      //[5,5,5,5,9] →9
+      //[5,5,5,5,5] →0
+      //[5,1,5,1,5] →17
 
-   /* public static int sumOfNotDuplicateNumbers(int[] arr) {
+    public static int sumOfNotDuplicateNumbers(int[] arr) {
+            int sum=0;
+            out:for (int i = 0; i < arr.length; i++) {//1
+                for (int j = 0; j < arr.length; j++) {
+                    if(i!=j&&arr[i]==arr[j]){
+                        continue out;
+                    }
+                }sum+=arr[i];
+            }
+            return sum;
+        }
+
+//SORU 25:Array’in içerisindeki sayıların toplamını veren fakat 5 ile 9 dahil arasındaki sayıları
+//        toplama dahil etmeyin.
+//        [1,5,9,3] → 4
+//        [2,5,28,36,9] →2
+
+     public static int sumOfNumbersExceptFiveToNine(int[]arr){
+         int sum=0;
+         for (int i = 0; i < arr.length; i++) {
+             for (int j = i+1; j < arr.length; j++) {
+                 if(arr[i]==5&&arr[j]==9){
+                     Arrays.fill(arr,i,j+1,0);
+                 }
+             }
+                     sum+=arr[i];
+             }return sum;
+     }
+
+//SORU 26: Array’in içerisindeki ne kadar 1 var ise hepsini en sağa taşıyan metodu yazınız.
+//         [5,1,9,6,1,4,7,11,25,36] → [5,9,6,4,7,11,25,36,1,1)
+
+    public static int[] putOneToRightSide(int[]arr) {
+        for(int i = 0; i < arr.length; i++) {
+             if(arr[i]==1){
+                for (int j = i; j < arr.length-1; j++) {
+                    arr[j]=arr[j+1];
+
+                }arr[arr.length-1]=1;
+            }
+        }return arr;
+
+    }
 
 
-    }*/
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

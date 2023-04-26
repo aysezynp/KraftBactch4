@@ -1,35 +1,22 @@
 package exercise;
 
 
+import java.nio.file.attribute.UserDefinedFileAttributeView;
 import java.util.Arrays;
 
 public class FreeStudy {
     public static void main(String[] args) {
-        System.out.println(reverse("I love Java"));
+
+        String[] str = {"ali", "ahmet", "veli"};
+        String[] str1 = Arrays.copyOfRange(str, 0, 3);
+        System.out.println(Arrays.toString(str1));
+        int[]x={3,6,4,9,6};
+        Arrays.sort(x);
+        System.out.println(Arrays.toString(x));
+        int[]x3={3,6,4,9,6};
+        Arrays.fill(x3,0,2,1);
+        System.out.println(Arrays.toString(x3));
     }
-    /* write a program that can reverse the second word of the sentence
-        Ex:
-        sentence="I love Java";
-                  0    1   2
-        output;
-        I evol java
-        */
-    public static String reverse(String str) {
-        String[] strArr = str.split(" ");
-        String result = "";
-
-        String reversed = "";
-        for (int i = strArr[1].length() - 1; 0<=i; i--) {
-            reversed += strArr[1].charAt(i);
-        }
-        strArr[1]=reversed;
-        for (String yeni : strArr) {
-            result += yeni + " ";
-        }
-        return result;
-    }
-
-
 }
 
 

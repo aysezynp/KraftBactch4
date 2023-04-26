@@ -24,6 +24,7 @@ public class C02_WrapperClass_Methods {
     int result=Integer.parseInt(strArray[2]);
     System.out.println(result);*/
 
+
         String str="Bugün hava 40 derece;Bugün hava çok sıcak";
         // 40 ve üzerinde ise "Bugün hava çok sıcak"
         //Altında ise bugün hava mevsim normallaerinde
@@ -37,12 +38,17 @@ public class C02_WrapperClass_Methods {
         } else {
             System.out.println(expectedResult2.equalsIgnoreCase(actualResult));
         }
-        //"Ali'nin doğum yılı 1996" ise 10 yıl sonra ali kaç yaşında olur?
+
+
+
+    //"Ali'nin doğum yılı 1996" ise 10 yıl sonra ali kaç yaşında olur?
         String str1="Ali'nin doğum yılı 1996";
+        int dogumYili=Integer.parseInt(str1.split(" ")[3]);
+        int onYilSonra=(2023-dogumYili)+10;
         String name=str1.split("'")[0];
-        int yas=2023-(Integer.parseInt(str1.split(" ")[3]));
-        int on=yas+10;
-        System.out.println(on);
+        System.out.println(name+" "+onYilSonra+" yaşında olur.");
+
+
 
     }
 
