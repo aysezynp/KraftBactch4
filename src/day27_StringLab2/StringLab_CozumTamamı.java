@@ -405,7 +405,7 @@ public class StringLab_CozumTamamı {
     }
 
     //SORU 26: Bursa ile Ankara kelimeli cümlenin içerisinde aynı sayıda dönüyorsa true farklı
-    //         sayılarda dönüyorsa false yazdıran meto
+    //         sayılardate dönüyorsa false yazdıran meto
 
     public static boolean ikiKelimeAyniSayida(String cumle, String target1, String target2) {
         int sayac1=0;

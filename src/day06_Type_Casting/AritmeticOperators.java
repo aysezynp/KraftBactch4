@@ -1,5 +1,7 @@
 package day06_Type_Casting;
 
+import java.util.ArrayList;
+
 public class AritmeticOperators {
     public static void main(String[]args) {
 
@@ -11,12 +13,13 @@ public class AritmeticOperators {
         int z= x/y;
 
 
-
         // System.out.print (x-y);
         //System.out.print (x+y);
        // System.out.println("harun"+x*y);
 
 */
+        ArrayList<Integer>arr=new ArrayList<>();
+
  int sayi=3+5/2*4%(12-9);
  System.out.println(sayi);
         //3+5/2*4%3

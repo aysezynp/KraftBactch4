@@ -73,8 +73,12 @@ public class Array {
 
         //numerically
 
-
-
+      /*  ArrayList<String>arrayList=new ArrayList<>();
+       ArrayList<>arrayList1=new ArrayList<>();
+        arrayList.add("Ali");
+        arrayList.add(5);
+        Object[]object={};
+*/
 
     }
 
