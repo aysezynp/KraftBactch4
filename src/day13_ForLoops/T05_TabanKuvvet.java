@@ -30,4 +30,6 @@ public class T05_TabanKuvvet {
 
     }
 
-}
+
+    }
+

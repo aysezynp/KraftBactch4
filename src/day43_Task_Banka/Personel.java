@@ -39,7 +39,7 @@ public class Personel extends Sube{
             this.personelNo = personelNo;
         }
 
-    public static String personelNoOlustur(){
+    public  static String personelNoOlustur(){
            Random rm=new Random();
            int x= rm.nextInt(1000,9999);
            String personelNo="BANK"+count+x;

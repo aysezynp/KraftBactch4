@@ -18,5 +18,6 @@ public class T02_ForNestedYıldız {
             System.out.println();
         }
 
+        }
     }
-}
+

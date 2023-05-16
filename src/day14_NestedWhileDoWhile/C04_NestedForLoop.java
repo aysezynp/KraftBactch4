@@ -41,7 +41,14 @@ for (int a=1;a<=6;a++){
 }
 
 
+        for (int i = 1,k=0; i <4 ; i++) {//1
+            for (int j=1;j<=i; j++) {
+                k++;
+                System.out.print(k);
 
+            }
+            System.out.println();
+        }
 
 
 

@@ -5,112 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit aysezcz">
-      <change afterPath="$PROJECT_DIR$/src/day41_StaticAndInheritance/BankaMusteri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_StaticAndInheritance/C01_Constructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day41_StaticAndInheritance/FarkliClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/DisClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/Papagan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_InheritanceAndAccessKeywords/Automobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_InheritanceAndAccessKeywords/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_InheritanceAndAccessKeywords/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_InheritanceAndAccessKeywords/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_InheritanceAndAccessKeywords/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_InheritanceAndAccessKeywords/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_Banka/Banka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_Banka/MainBanka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_Banka/Musteri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_Banka/Personel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_Banka/Sube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/HumanResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/ProjectOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/SoftwareDevelopmentTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day43_Task_SDLC/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/B1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/C1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/FinalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/MAIN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Canlilar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Daire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/FinalAndHiiding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Kare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day45_FinalAndHidding_2/Sekiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/MyZoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/Wild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/animal/canFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/car/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/car/Honda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/car/MyGarage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day46_AbstractClassAndInterface/car/Togg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/C01_Polymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day47_Polymorphism/shape/Volume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ReferanceTypeCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/BusinessAnalyst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/DevTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/ProductOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/ScrumMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/ScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/Spotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/ScrumTeam/Tester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_OOP_Review/day48_Classnotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Exception/C01_Exception_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Exception/C02_Exception_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Exception/C03_Exception_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_Exception/C04_Exception_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/C01_Exception_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/C02_Exception_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/C03_Exception_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/C04_Exception_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/C05_Excepiton_9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/C06_Collection_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_Exceptions_Collection/HarunException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_Collection_List/C01_Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_Collection_List/C02_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_Collection_List/C03_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_Collection_List/day51_Classnotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection2/C01_ListPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection2/C02_QueuePractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection2/C03_SetPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection2/C04_SetPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_Collection2/C05_SetPractice3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C01_Exceptiıon_Summary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C02_List_Summary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C03_List_Summary_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C04_List_Summary_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C05_Set_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C06_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_LoopsAndMAp/CollectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_LoopsAndMAp/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_LoopsAndMAp/v.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mentoring/soru.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/LogicalOperators_IfStatements/IfStatements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/day06_Type_Casting/AritmeticOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KraftBactch4/day06_Type_Casting/AritmeticOperators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/FreeStudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/MentoringOrtalama.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/MyStudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/WhileLoop_Mentoring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/exercise/ternaru.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOperators_IfStatements/IfStatements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06_Type_Casting/AritmeticOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06_Type_Casting/AritmeticOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_CozumTamamı.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day27_StringLab2/StringLab_CozumTamamı.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/FreeStudy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/MentoringOrtalama.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/MyStudy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/NameSurnameControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/WhileLoop_Mentoring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/ternaru.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mentoring/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mentoring/ArrayLİstOdev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mentoring/ArrayLİstOdev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/MethodsIntro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/day14_NestedWhileDoWhile/C04_NestedForLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KraftBactch4/day14_NestedWhileDoWhile/C04_NestedForLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13_ForLoops/T05_TabanKuvvet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13_ForLoops/T05_TabanKuvvet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14_NestedWhileDoWhile/C04_NestedForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14_NestedWhileDoWhile/C04_NestedForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14_NestedWhileDoWhile/T02_ForNestedYıldız.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14_NestedWhileDoWhile/T02_ForNestedYıldız.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day43_Task_Banka/Personel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day43_Task_Banka/Personel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +76,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-19/lib/src.zip!/java.base/java/lang/System.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/day51_Collection_List/C03_List.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -172,6 +103,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day51_Collection_List" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asus\IdeaProjects\KraftBactch4\src\day47_Polymorphism\shape" />
     </key>
@@ -179,13 +113,13 @@
       <recent name="day19_CustomMethods_Return" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReferanceTypeCasting">
-    <configuration name="C01_Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day47_Polymorphism.shape.C01_Polymorphism" />
+  <component name="RunManager" selected="Application.T02_ForNestedYıldız">
+    <configuration name="C04_NestedForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14_NestedWhileDoWhile.C04_NestedForLoop" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day47_Polymorphism.shape.*" />
+          <option name="PATTERN" value="day14_NestedWhileDoWhile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyZoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day46_AbstractClassAndInterface.animal.MyZoom" />
+    <configuration name="CollectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day54_LoopsAndMAp.CollectionSort" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day46_AbstractClassAndInterface.animal.*" />
+          <option name="PATTERN" value="day54_LoopsAndMAp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferanceTypeCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_OOP_Review.ReferanceTypeCasting" />
+    <configuration name="T02_ForNestedYıldız" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14_NestedWhileDoWhile.T02_ForNestedYıldız" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_OOP_Review.*" />
+          <option name="PATTERN" value="day14_NestedWhileDoWhile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_OOP_Review.ScrumTeam.Spotify" />
+    <configuration name="T03_RakamÜçgenleri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14_NestedWhileDoWhile.T03_RakamÜçgenleri" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_OOP_Review.ScrumTeam.*" />
+          <option name="PATTERN" value="day14_NestedWhileDoWhile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day48_OOP_Review.ScrumTeam.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_OOP_Review.ScrumTeam.Main" />
+    <configuration name="soru" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mentoring.soru" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_OOP_Review.ScrumTeam.*" />
+          <option name="PATTERN" value="mentoring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.C01_Polymorphism" />
-      <item itemvalue="Application.MyZoom" />
-      <item itemvalue="Application.ReferanceTypeCasting" />
-      <item itemvalue="Application.Spotify" />
-      <item itemvalue="Application.day48_OOP_Review.ScrumTeam.Main" />
+      <item itemvalue="Application.T02_ForNestedYıldız" />
+      <item itemvalue="Application.T03_RakamÜçgenleri" />
+      <item itemvalue="Application.C04_NestedForLoop" />
+      <item itemvalue="Application.CollectionSort" />
+      <item itemvalue="Application.soru" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReferanceTypeCasting" />
-        <item itemvalue="Application.Spotify" />
-        <item itemvalue="Application.day48_OOP_Review.ScrumTeam.Main" />
-        <item itemvalue="Application.C01_Polymorphism" />
-        <item itemvalue="Application.MyZoom" />
+        <item itemvalue="Application.T02_ForNestedYıldız" />
+        <item itemvalue="Application.C04_NestedForLoop" />
+        <item itemvalue="Application.T03_RakamÜçgenleri" />
+        <item itemvalue="Application.CollectionSort" />
+        <item itemvalue="Application.soru" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682522245417</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit aysezcz">
+      <created>1683528745132</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683528745132</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -950,6 +891,33 @@
           </properties>
           <option name="timeStamp" value="177" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day53_ExceptionAndCollectrion_Summary/C05_Set_1.java</url>
+          <line>8</line>
+          <properties class="day53_ExceptionAndCollectrion_Summary.C05_Set_1" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mentoring/soru.java</url>
+          <line>21</line>
+          <properties class="mentoring.soru" method="uniqueNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day54_LoopsAndMAp/CollectionSort.java</url>
+          <line>8</line>
+          <properties class="day54_LoopsAndMAp.CollectionSort" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day04_VariableCont/EmployeeInfo.java</url>
           <line>12</line>
@@ -1049,6 +1017,36 @@
           <url>file://$PROJECT_DIR$/src/day27_StringLab2/StringLab_CozumTamamı.java</url>
           <line>410</line>
           <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day50_Exceptions_Collection/C06_Collection_1.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day50_Exceptions_Collection/C04_Exception_8.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day51_Collection_List/C03_List.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day52_Collection2/C03_SetPractice.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day14_NestedWhileDoWhile/C04_NestedForLoop.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day14_NestedWhileDoWhile/T03_RakamÜçgenleri.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/day42_StaticAndInheritance/DisClass.java</url>
