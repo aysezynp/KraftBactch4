@@ -1,6 +1,6 @@
 package day19_CustomMethods_Return;
 
-public class T08_Obeb {
+public class T08_EBOB {
     public static void main(String[] args) {
         System.out.println("obeb(6,12) = " + obeb(6, 12));
     }

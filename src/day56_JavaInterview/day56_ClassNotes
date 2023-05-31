@@ -1,0 +1,80 @@
+Day 56 JAVA REVIEW
+Topics:
+		1. Primitives: int, double, char, boolean
+		2. Primitive Type Castings: Implicit vs Explicit
+		3. Wrapper class
+		4. String
+		5. String vs StringBuilder vs StringBuffer
+		6. Loops: for & while
+		7. Arrays
+		8. for each loop
+		9. Custom Methods
+		10. Method Overloading
+
+1.Primitives: byte,short, int, long, float, double,
+              char,boolean
+
+
+2.Primitive Type Casting:Implicit,Widening/Explicit,Narrowing
+            1.Implicit casting:casting smaller primitive type to larger//Widening,automatic
+            2.Explicit casting:casting a larger primitive to smaller//Narrowing,manuel
+
+
+3.Wrapper Class: the objects that represents the primitives
+                 Enable us to use primitive data types in Collections and Maps
+                 also have some useful methods
+
+
+4.String: İmmutable
+          "KraftTech"
+           012345678
+ Methods: length, charAt, trim, lowercase, uppercase, replace, substring, equals, equalsIgnoreCase
+                                      split, endsWith, startsWith, toCharArr, indexOf, isEmpty...
+
+
+5.StringBuilder,StringBuffer
+     mutable char sequences
+     have reverse() feature
+     Slower than String
+
+     StringBuilder:Not Syncronized
+                   much faster than StringBuffer
+
+     StringBuffer:Synchronized
+
+6.LOOPS repeated actions
+
+for :if the number of repetition is known
+
+         for(initilization;condition;increment/decrement){
+            statements
+           }
+
+while: to repeat unknown number of times
+       while(condition){
+       statements
+       }
+
+branching statements:
+break:     exit the loops (switch)
+continue:  jumps to the next iteration of the loop
+return:    exit te current me
+
+
+8. for each loop: iteration is fixed(from fisrt to last element)
+                  you dont have access to the index numbers, cannot reaasign values
+                  data structure is needed to use
+
+9. Custom Methods: Function
+                   reusability
+                   series of code fragments for a specific task
+
+                   public static void/Any data type methodName(){
+                   code perform the task}
+
+10. Method Overloading: multiple methods having same name in a class
+                        Different Parameters
+                        reusability
+                        (static polymorphism)
+
+

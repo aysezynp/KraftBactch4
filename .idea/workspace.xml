@@ -4,18 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit aysem">
-      <change afterPath="$PROJECT_DIR$/src/day54_LoopsAndMAp/C01_Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/C01_LoopSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/C02_IteratorSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/C03_MapMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/C04_MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/Ogrenci.java" afterDir="false" />
+    <list default="true" id="64fca855-a0d7-498e-91de-26d19425d106" name="Changes" comment="commit aysemcommit aysemmx">
+      <change afterPath="$PROJECT_DIR$/src/InterviewSoruları/InterviewSoru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterviewSoruları/InterviewSoru2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C01_Primitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C02_WrapperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C03_StringClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C04_ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C05_LoopReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C06_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C07_Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/C08_MethodsReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day56_JavaInterview/day56_ClassNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day57_JavaReview2/C01_ClassReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day57_JavaReview2/C02_ImportStatements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day57_JavaReview2/C03_EncapsulationReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day57_JavaReview2/day57_ClassNotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/day14_NestedWhileDoWhile/T02_ForNestedYıldız.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KraftBactch4/day14_NestedWhileDoWhile/T02_ForNestedYıldız.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day54_LoopsAndMAp/CollectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day54_LoopsAndMAp/C02_CollectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day54_LoopsAndMAp/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day54_LoopsAndMAp/C03_MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day54_LoopsAndMAp/v.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KraftBactch4/day19_CustomMethods_Return/T06_YıldızUcgeni.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KraftBactch4/day19_CustomMethods_Return/T06_YıldızUcgeni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T06_YıldızUcgeni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T06_YıldızUcgeni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T08_Obeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day19_CustomMethods_Return/T08_EBOB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24_StringClass_Cont/T03_a_e_i_Formatı.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26_StringSoruÇözümü/StringLab_8_13benimCozum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day42_StaticAndInheritance/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day42_StaticAndInheritance/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day44_FinalAndHiding/A1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/A1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day44_FinalAndHiding/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day44_FinalAndHiding/MAIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day55_MapAndFinish/C03_MapMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/C03_MapMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day55_MapAndFinish/C04_MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/C04_MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day55_MapAndFinish/Ogrenci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day55_MapAndFinish/Ogrenci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +104,13 @@
       <recent name="day19_CustomMethods_Return" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C04_MapExample">
-    <configuration name="C02_CollectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day54_LoopsAndMAp.C02_CollectionSort" />
+  <component name="RunManager" selected="Application.InterviewSoru">
+    <configuration name="C04_Tasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day33_Arrays_3.C04_Tasks" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day54_LoopsAndMAp.*" />
+          <option name="PATTERN" value="day33_Arrays_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_IteratorSummary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day55_MapAndFinish.C02_IteratorSummary" />
+    <configuration name="InterviewSoru" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewSoruları.InterviewSoru" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day55_MapAndFinish.*" />
+          <option name="PATTERN" value="InterviewSoruları.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day54_LoopsAndMAp.C03_MapExample" />
+    <configuration name="InterviewSoru2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterviewSoruları.InterviewSoru2" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day54_LoopsAndMAp.*" />
+          <option name="PATTERN" value="InterviewSoruları.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_MapMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day55_MapAndFinish.C03_MapMethods" />
+    <configuration name="MAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day44_FinalAndHiding.MAIN" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day55_MapAndFinish.*" />
+          <option name="PATTERN" value="day44_FinalAndHiding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day55_MapAndFinish.C04_MapExample" />
+    <configuration name="T06_YıldızUcgeni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19_CustomMethods_Return.T06_YıldızUcgeni" />
       <module name="KraftBactch4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day55_MapAndFinish.*" />
+          <option name="PATTERN" value="day19_CustomMethods_Return.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.C02_IteratorSummary" />
-      <item itemvalue="Application.C03_MapMethods" />
-      <item itemvalue="Application.C04_MapExample" />
-      <item itemvalue="Application.C02_CollectionSort" />
-      <item itemvalue="Application.C03_MapExample" />
+      <item itemvalue="Application.InterviewSoru2" />
+      <item itemvalue="Application.InterviewSoru" />
+      <item itemvalue="Application.C04_Tasks" />
+      <item itemvalue="Application.MAIN" />
+      <item itemvalue="Application.T06_YıldızUcgeni" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C04_MapExample" />
-        <item itemvalue="Application.C03_MapMethods" />
-        <item itemvalue="Application.C02_IteratorSummary" />
-        <item itemvalue="Application.C03_MapExample" />
-        <item itemvalue="Application.C02_CollectionSort" />
+        <item itemvalue="Application.InterviewSoru" />
+        <item itemvalue="Application.InterviewSoru2" />
+        <item itemvalue="Application.MAIN" />
+        <item itemvalue="Application.C04_Tasks" />
+        <item itemvalue="Application.T06_YıldızUcgeni" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684215332881</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit aysemcommit aysemm">
+      <created>1684266074217</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684266074217</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit aysemcommit aysemmx">
+      <created>1684266117648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684266117648</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +323,9 @@
     <MESSAGE value="commit aysezc" />
     <MESSAGE value="commit aysezcz" />
     <MESSAGE value="commit aysem" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit aysem" />
+    <MESSAGE value="commit aysemcommit aysemm" />
+    <MESSAGE value="commit aysemcommit aysemmx" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit aysemcommit aysemmx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -677,9 +709,9 @@
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/day19_CustomMethods_Return/T08_Obeb.java</url>
+          <url>file://$PROJECT_DIR$/src/day19_CustomMethods_Return/T08_EBOB.java</url>
           <line>3</line>
-          <properties class="day19_CustomMethods_Return.T08_Obeb" method="main">
+          <properties class="day19_CustomMethods_Return.T08_EBOB" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -895,11 +927,38 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/day54_LoopsAndMAp/C02_CollectionSort.java</url>
           <line>8</line>
-          <properties class="day54_LoopsAndMAp.C02_CollectionSort" method="main">
+          <properties class="day54_LoopsAndMAp.C02_CollectionSort">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/day56_JavaInterview/C08_MethodsReview.java</url>
+          <line>3</line>
+          <properties class="day56_JavaInterview.C08_MethodsReview" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/InterviewSoruları/InterviewSoru.java</url>
+          <line>30</line>
+          <properties class="InterviewSoruları.InterviewSoru" method="sortedPrices">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/InterviewSoruları/InterviewSoru.java</url>
+          <line>44</line>
+          <properties class="InterviewSoruları.InterviewSoru" method="sortedPrices">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/day04_VariableCont/EmployeeInfo.java</url>
@@ -1030,6 +1089,16 @@
           <url>file://$PROJECT_DIR$/src/day14_NestedWhileDoWhile/T03_RakamÜçgenleri.java</url>
           <line>22</line>
           <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day19_CustomMethods_Return/T06_YıldızUcgeni.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day44_FinalAndHiding/MAIN.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/day42_StaticAndInheritance/DisClass.java</url>

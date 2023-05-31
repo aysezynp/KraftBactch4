@@ -2,6 +2,7 @@ package day44_FinalAndHiding;
 
 public class A1 {
     int a=20;
+    static int b=35;
     static {
         System.out.println("A static blok çalıştı");
     }
@@ -11,4 +12,5 @@ public class A1 {
     public A1(){
         System.out.println("A const. çalıştı");
      }
+
 }

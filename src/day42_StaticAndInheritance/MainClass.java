@@ -3,9 +3,9 @@ import static java.lang.Math.*;//Static olmak zorunda
 public class MainClass {
     public static void main(String[] args) {
 
-    /* A a=new A();
+     A a=new A();
         System.out.println(a.normalVariable);
-         a.normalMethod();*/
+         a.normalMethod();
 
      /*   B b=new B();
         B b1=new B();

@@ -2,7 +2,7 @@ package day19_CustomMethods_Return;
 
 public class T06_YıldızUcgeni {
     public static void main(String[] args) {
-   yildizUcgeni(7);
+   yildizUcgeni(3);
     }
 
     /**

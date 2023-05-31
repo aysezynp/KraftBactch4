@@ -8,7 +8,7 @@ public class Ogrenci {
     private String isim;
     private String soyIsım;
     private int no;
-    public ArrayList<String> dersler=new ArrayList<>();
+    private ArrayList<String> dersler = new ArrayList<>();
 
     public Ogrenci(String isim, String soyIsım, int no) {
         this.isim = isim;
@@ -35,6 +35,7 @@ public class Ogrenci {
     public int getNo() {
         return no;
     }
+    // no değişmesin istediğimiz iin setter yapmadık
 
 
     public ArrayList<String> getDersler() {
@@ -46,7 +47,7 @@ public class Ogrenci {
 
     }
 
-    @Override
+
     public String toString() {
         return "Ogrenci{" +
                 "isim='" + isim + '\'' +

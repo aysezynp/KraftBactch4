@@ -14,6 +14,7 @@ public class C03_MapMethods {
         map2.put(12,"Harun koç");
         map2.put(13,"Ziya arslan");
 
+
      //  System.out.println(map.get(13));
      //  System.out.println(map.values());//valueları Collection olarak döndüd
      //  Collection<String>collection=map.values();
@@ -46,5 +47,6 @@ public class C03_MapMethods {
       //  System.out.println(map.replace(15,"Harun koç","Emine Hanım"));
 
         System.out.println(map);
+
     }
 }
