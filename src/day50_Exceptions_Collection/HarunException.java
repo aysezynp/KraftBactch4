@@ -7,14 +7,13 @@ public class HarunException extends Exception {
     }
 
 }
-class Demo{
+class Demo {
     public static void main(String[] args) {
-        try{
+        try {
             throw new HarunException("hata");
-        }catch(Exception a){
+        } catch (Exception a) {
             a.printStackTrace();
             System.out.println(a.getMessage());
         }
     }
-
 }

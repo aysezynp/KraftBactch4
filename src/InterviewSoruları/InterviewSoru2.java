@@ -2,6 +2,8 @@ package InterviewSoruları;
 
 import day19_CustomMethods_Return.T05_MathPow;
 
+import java.util.Arrays;
+
 import static day50_Exceptions_Collection.C01_Exception_5.faktoriyel;
 
 public class InterviewSoru2 {
@@ -18,3 +20,4 @@ public class InterviewSoru2 {
             return sum;
     }
 }
+

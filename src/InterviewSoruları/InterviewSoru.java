@@ -1,66 +1,61 @@
 package InterviewSoruları;
 
+import day44_FinalAndHiding.C;
+
+import java.awt.List;
+import java.sql.SQLOutput;
 import java.util.*;
+import java.util.concurrent.Callable;
 
 public class InterviewSoru {
     public static void main(String[] args) {
 
 
-        String str = "samsung,'OEM Samsung Washing Machine Pulsator Washplate Cap Shipped With WA48J7700AW, WA48J7700AW/A2, WA48J7700AW/AA',20916,\n" +
-                "samsung, 'OEM Samsung Chrome Washing Machine Washplate Pulsator Cap Shipped With WA52M7750AV, WA52M7750AV/A4, WA52M7750AW, WA52M7750AW/A4', 91995,\n" +
-                "samsung, 'SAMSUNG Washing Machine Spring Hanger, DC61-01257M', 22970,\n" +
-                "samsung, 'Samsung DC97-17022B Assy Detergent', 32959,\n" +
-                "samsung, 'Samsung DC66-00470A DAMPER SHOCK', 29981,\n" +
-                "samsung, 'DC64-00519D Samsung Washing Machine Door Lock Washer Dryer Dishwashe -MP#GH4498 349Y49HBRG9109150', 52000,\n" +
-                "samsung, 'Samsung DC97-16991A Assembly Filter', 13000";
-
-        System.out.println("sortedPrices(str) = " + sortedPrices(str));
-            /*String[] arr = array[03].split(",");
-            System.out.println(Arrays.asList(arr));
-           String[] key = Arrays.copyOfRange(arr, 0, arr.length - 1);
-            System.out.println(Arrays.asList(key));
-            Integer value= arr[arr.length-1];
-
-         System.out.println(value);
-            //map.put(key, value);*/
+        String str = "samsung,'OEM Samsung Washing Machine Pulsator Washplate Cap Shipped With WA48J7700AW, WA48J7700AW/A2, WA48J7700AW/AA', 20916," +
+                "samsung,'OEM Samsung Chrome Washing Machine Washplate Pulsator Cap Shipped With WA52M7750AV, WA52M7750AV/A4, WA52M7750AW, WA52M7750AW/A4', 91995," +
+                "samsung,'SAMSUNG Washing Machine Spring Hanger, DC61-01257M', 22970," +
+                "samsung,'Samsung DC97-17022B Assy Detergent', 32959," +
+                "samsung,'Samsung DC66-00470A DAMPER SHOCK', 29981," +
+                "samsung,'DC64-00519D Samsung Washing Machine Door Lock Washer Dryer Dishwashe -MP#GH4498 349Y49HBRG9109150', 52000," +
+                "samsung,'Samsung DC97-16991A Assembly Filter', 13000";
 
 
-    }
-
-    /*   public static Map<String[], Integer> sortedPrices(String str) {
-           Map<String[], Integer> map = new TreeMap<>();
-           String[] array = str.split(",\n");
-           for (int i = 0; i < array.length; i++) {
-               String[] arr = array[i].split(",");
-               String[] key = Arrays.copyOfRange(arr, 0, arr.length - 1);
-               Integer value = Integer.valueOf(arr[arr.length - 1]);
-               map.put(key, value);
-           }
-
-           return map;
-
-
-       }
-   */
-    public static List<String> sortedPrices(String str) {
-        List<String> list = new ArrayList<>();
-        String[] array = str.split(",\n");
-        String[] array2 = array[0].split(",");
-        int max = Integer.parseInt(array2[array2.length-1]);
-        for (int i = 1; i < array.length; i++) {
-            array2 = array[i].split(",");
-            if (Integer.parseInt(array2[(array2.length )- 1]) < max) ;
-       list.add(array[i]);
+        String[] array = str.split("samsung,'");
+       // System.out.println(Arrays.toString(array));
+        for (String s : array) {
+            System.out.println(s+ " ");
         }
-        return list;
+
+        System.out.println(("......................................."));
+
+        Map<String, String> mapList = new TreeMap<>();
+
+        for (int i = 1; i < array.length; i++) {
+            String[] split = array[i].split("',");
+            mapList.put(split[1], split[0]);
+        }
+        //1.YOl foreach ile yazdırma
+        mapList.forEach((k, v) -> System.out.println("samsung,'" + v + "'," + k));
+
+        System.out.println(("......................................."));
+
+        //2.yol mapList key üzerinden yazdırma
+        Iterator<String> iterator = mapList.keySet().iterator();
+        Iterator<String>iterator1=mapList.values().iterator();
+
+
+      //  while(iterator.hasNext()){
+        //            String key=iterator.next();
+        //            System.out.println("samsung,'"+mapList.get(key)+"',"+key);
+        //   }
+
+        //3.YOl mapList value üzerinden yazdırma
+        while(iterator1.hasNext()){
+            String value=iterator1.next();
+            System.out.println("samsung,'"+value+iterator.next());
+        }
+
     }
 
 }
-// String []arr= str.replace(" ","").split("");
-//    Set<String>uniqueCharSet=new HashSet<>();
-//        for (int i = 0; i < arr.length; i++) {
-//               uniqueCharSet.add(arr[i]);
-//        }
-//         return uniqueCharSet.size();
-//
-//            }
+
